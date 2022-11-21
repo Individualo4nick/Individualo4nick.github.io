@@ -1,0 +1,125 @@
+body
+{   
+    background: linear-gradient(to top, rgb(98, 5, 5), black);
+    color:white;
+  }
+.contenttext
+{
+    color: white;
+    text-decoration: underline white;
+}
+.maintext { 
+    color: rgb(255, 153, 0);
+    text-decoration: underline rgb(255, 153, 0);
+}
+.magic{
+  background: black
+}
+.text {
+    color: red;
+  }
+.toc h2{
+  color: black;
+}
+.tocnumber{
+  color:#202122;
+}
+.toctogglespan .toctogglelabel,a{
+  color:rgb(225, 225, 225);;
+}
+.magic a{
+  color:rgb(255, 153, 0);
+}
+a:active, a:hover{
+  color:black;
+  background: rgb(255, 153, 0);
+}
+.flex_container{
+  background: rgb(99, 65, 44);
+}
+.flex_container .content_in_flex p{
+  color:rgb(225, 225, 225);
+}
+.toc{
+  background-color:rgb(99, 65, 44);
+  border:1px solid rgb(255, 153, 0);
+}
+.toc .toctitle{
+  border-bottom: 1px solid rgb(255, 153, 0);
+}
+  .toc .toctitle h2{
+    color:rgb(225, 225, 225);
+  }
+  .toc ul li a .tocnumber{
+    color:rgb(225, 225, 225);
+  }
+  .toc ul li a:hover{
+    background-color:rgb(255, 153, 0)
+  }
+  .toc ul li a:hover,.toc ul li a:hover .tocnumber{
+    color:white;
+  }
+  .toctogglespan:after,.toctogglespan:before{
+    color:rgb(225, 225, 225);
+  }
+  .sticky-toc.toc{
+    background:rgb(93, 56, 33);
+  }
+  .sticky-toc.toc>ul:after,.sticky-toc.toc>ul:before{
+    background-color:rgb(93, 56, 33);
+  }
+  .container .menu_img{
+    background: rgb(93, 56, 33);
+    box-shadow: 0px 0px 10px black;
+  }
+  .content_in_flex ul{
+    color:rgb(225, 225, 225);
+  }
+ .pre_magic .dropdown .dropbtn {
+    color:white;
+}
+.magic .dropdown .dropbtn {
+  color:rgb(255, 153, 0);
+}
+ .dropdown-content a:hover {
+    background-color: rgb(255, 153, 0);
+}
+.dropdown-content a {
+  color:white
+}
+.dropdown:hover .dropbtn {
+    background-color: rgb(255, 153, 0);
+    color:black;
+}
+
+.icons ul li a{
+  color: white;
+  background: black;
+}
+
+.icons ul li a::before{
+  background: linear-gradient(red,gold);
+}
+.pre_magic ul li .pers{
+  background: rgb(255, 153, 0);
+  color: black;
+}
+.magic ul li .pers{
+  background: rgb(255, 153, 0);
+  color: black;
+}
+.content_in_flex hr{
+  color: rgb(121, 112, 112);
+  background-color: rgb(121, 112, 112);
+}
+.dropdown .dropdown-content {
+  background-color: rgb(93, 56, 33);
+}
+ .sub{
+  color:white;
+ }
+
+.container .theme {
+  background: rgb(93, 56, 33);
+  box-shadow: 0px 0px 10px black;
+}

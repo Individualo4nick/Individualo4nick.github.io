@@ -1,0 +1,126 @@
+body
+{   
+    background: linear-gradient(to top, rgb(6, 74, 117), rgb(198, 226, 243));
+    color:black;
+}
+.contenttext
+{
+    color: black;
+    text-decoration: underline black;
+}
+.maintext { 
+    color: rgb(148, 93, 11);
+    text-decoration: underline rgb(148, 93, 11);
+}
+.text {
+    color: red;
+  }
+.toc h2{
+  color: black;
+}
+.tocnumber{
+  color:#202122;
+}
+.toctogglespan .toctogglelabel,a{
+  color:black;
+}
+.magic a{
+  color:rgb(148, 93, 11);
+}
+a:active, a:hover{
+  color:black;
+  background: rgb(255, 153, 0);
+}
+.flex_container{
+  background: rgb(225, 225, 225);
+}
+.flex_container .content_in_flex p{
+  color:black;
+}
+.toc{
+  background-color:rgb(225, 225, 225);
+  border:1px solid rgb(255, 153, 0);
+}
+.toc .toctitle{
+  border-bottom: 1px solid rgb(255, 153, 0);
+}
+.toc .toctitle h2{
+    color:black;
+}
+.toc ul li a .tocnumber{
+color:black;
+}
+.toc ul li a:hover{
+background-color:rgb(255, 153, 0)
+}
+.toc ul li a:hover,.toc ul li a:hover .tocnumber{
+color:black;
+}
+.toctogglespan:after,.toctogglespan:before{
+color:black;
+}
+.sticky-toc.toc{
+background:rgb(114, 165, 197);
+}
+.sticky-toc.toc>ul:after,.sticky-toc.toc>ul:before{
+background-color:rgb(114, 165, 197);
+}
+.container .menu_img{
+background: rgb(114, 165, 197);
+box-shadow: 0px 0px 10px black;
+}
+.content_in_flex ul{
+color:black;
+}
+.pre_magic .dropdown .dropbtn {
+color:black;
+}
+.dropdown .dropdown-content {
+    background-color: rgb(114, 165, 197);
+}
+.magic .dropdown .dropbtn {
+  color:rgb(148, 93, 11);
+}
+.magic{
+    background: rgb(198, 226, 243)
+}
+ .dropdown-content a:hover {
+    background-color: rgb(255, 153, 0);
+}
+.dropdown-content a {
+    color:black;
+}
+.dropdown:hover .dropbtn {
+    background-color: rgb(255, 153, 0);
+    color:black;
+}
+.icons ul li a{
+  color: white;
+  background: black;
+}
+
+.icons ul li a::before{
+  background: linear-gradient(red,gold);
+}
+.pre_magic ul li .pers{
+  background: rgb(255, 153, 0);
+  color: black;
+}
+.magic ul li .pers{
+  background: rgb(255, 153, 0);
+  color: black;
+}
+.content_in_flex hr{
+  color: rgb(199, 185, 185);
+  background-color: rgb(199, 185, 185); 
+}
+ .sub{
+  color:white;
+ }
+.sub{
+    color:black;
+}
+.container .theme {
+  background: rgb(114, 165, 197);
+  box-shadow: 0px 0px 10px black;
+}

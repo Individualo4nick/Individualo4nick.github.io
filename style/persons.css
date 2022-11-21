@@ -1,0 +1,49 @@
+.Pict img{
+    width: 30vw;   
+    text-align: center;
+  }
+  .Pict{ 
+    text-align: center;
+    font-size: 10px;
+  }
+
+.rightimgportrait  {
+    float: right; 
+    height: 35vh;
+    margin: 7px 0 7px 7px; 
+}
+.pre_magic ul li .pers{
+    background: rgb(255, 153, 0);
+    color: black;
+    border-radius: 3px;
+}
+.content_in_flex .person{
+    list-style:disc;
+    padding-left: 7vw;
+}
+.content_in_flex .rightportrait_in_block{
+    float: right;
+    height: 20vw;
+}
+.content_in_flex p{
+    text-align: justify;
+}
+.sub{
+    color:white;
+}
+.icons ul{
+    padding: 0;
+}
+@media screen and (max-width: 800px) {
+    .rightimg {
+        width: 50vw;
+        padding-right:4vw;
+    }
+    .rightimgportrait {
+      height: 27vh;
+      padding-right:4vw;
+  }
+    .Pict img{
+      width: 60vw;
+    }
+  }

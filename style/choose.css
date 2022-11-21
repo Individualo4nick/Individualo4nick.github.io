@@ -1,0 +1,110 @@
+.content_in_flex .category-page__members{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content_in_flex .category-page__members img{
+    width: 30vw;
+    
+}
+.content_in_flex .Pict{
+    text-align: center;
+    font-size: 10px;
+}
+.content_in_flex .Pict img{
+    width: 50vw;   
+}
+.category-page__members_left {
+    float: left;
+    display: block;
+    width: 45%;
+    margin: 2px;
+    padding-left: 50px;
+}
+.category-page__members_left h2{
+    padding:0;
+    margin-bottom:0
+}
+.category-page__members_left a{
+    margin-left: 5px;
+    font-size: 25px;
+}
+.category-page__members_left img {
+    width:3vw;
+    display: inline-block;
+}
+.category-page__members_right {
+    float: left;
+    display: block;
+    width: 45%;
+    margin-top: 2px;
+    margin-left: 10px;
+    padding-right: 50px;
+}
+.category-page__members_right h2{
+    padding:0;
+    margin-bottom:0
+}
+.category-page__members_right a{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.category-page__members_right img {
+    width:3vw;
+    display: inline-block;
+}
+
+.category-page__members_left hr {
+    border: none; 
+    color: rgb(199, 185, 185); 
+    background-color: rgb(199, 185, 185); 
+    height: 1px; 
+}
+.pre_magic ul li .pers{
+    background: rgb(255, 153, 0);
+    color: black;
+    border-radius: 3px;
+}
+.magic ul li .pers{
+    background: rgb(255, 153, 0);
+    color: black;
+    border-radius: 3px;
+}
+@media screen and (max-width: 800px) {
+    .category-page__members_right {
+        float: left;
+        display: block;
+        width: 45%;
+        margin-top: 2px;
+        margin-left: 10px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .category-page__members_right img {
+        width:7vw;
+        display: inline-block;
+    }
+    .category-page__members_left img {
+        width:7vw;
+        display: inline-block;
+    }
+  }
+  .container .theme {
+    cursor: pointer;
+    transform: translate(15%, 50px);
+    top:10px;
+    width: 20px;
+    height: 20px;
+    left:7.5%;
+    position: sticky;
+    padding: 10px;
+    margin: 0;
+    border-radius: 50%;
+  }
+  .Pict img{
+    width: 30vw;   
+    text-align: center;
+  }
+  .Pict{ 
+    text-align: center;
+    font-size: 10px;
+  }

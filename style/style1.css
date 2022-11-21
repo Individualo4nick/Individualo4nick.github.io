@@ -1,0 +1,258 @@
+body
+{   margin:0;
+    background: linear-gradient(to top, rgb(98, 5, 5), black);
+    color: white
+}
+h1 {
+    font-size: 250%;
+}
+h2 {
+    font-size: 200%; 
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.contenttext
+{
+    color: white;
+    text-decoration: underline white;
+}
+.maintext {
+    list-style-type: none;
+    text-align: center;
+    flex-wrap: wrap;  
+    color: rgb(255, 153, 0);
+    text-decoration: underline rgb(255, 153, 0);
+}
+body #Text{
+  font-size: 200%;
+  text-align: center;
+  flex-wrap: wrap;  
+}
+.text {
+    color: red;
+  }
+.content {
+    font-size: 100%;
+}
+.toctogglecheckbox:focus + .toctitle .toctogglelabel{
+  text-decoration:underline;
+  outline:dotted 1px;
+  outline:auto grey
+}
+.toctogglecheckbox:checked + .toctitle .toctogglelabel:after{
+  content:'показать'
+}
+.toctogglecheckbox:not(:checked) + .toctitle .toctogglelabel:after{
+  content:'скрыть';
+}
+.toc .toctitle{
+  direction:ltr;
+}
+.toctogglecheckbox:checked ~ ul{
+  display:none
+}
+.toctogglespan .toctogglelabel, a{
+  color:rgb(225, 225, 225);;
+  text-decoration:none;
+  transition:color .3s
+}
+.magic a{
+  color:rgb(255, 153, 0);
+}
+a:active, a:hover{
+  color:black;
+  padding: 2px 6px;
+  background: rgb(255, 153, 0);
+  border-radius: 3px;
+}
+.flex_container{
+  display: flex;
+  margin-left: 9%;
+  margin-right: 9%;
+  background: rgb(99, 65, 44);
+  flex-direction: column;
+  z-index: 0;
+}
+.flex_container .content_in_flex p{
+  color:rgb(225, 225, 225);
+  font-size: 150%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+ .container #menu__toggle{
+    border: none;
+    background: none;
+    position: sticky;
+    transform: translate(15%, 40px);
+    top:10px;
+    left:7.5%;
+    width: 40px;
+    height: 40px;
+    opacity: 0;
+    cursor:pointer;
+    z-index: 2;
+  }
+  .container .menu_img{
+    border: none;
+    transform: translate(15%, 40px);
+    background: rgb(93, 56, 33);
+    border-radius: 50%;
+    position: sticky;
+    top:10px;
+    left:7.5%;
+    cursor:pointer;
+    z-index: 1;
+    box-shadow: 3px 1px 1px black;
+  }
+  .container{
+    padding-bottom:100px
+  }
+.magic {
+    opacity: 0;
+    width:100%;
+    position: fixed;
+    top:0px;
+    transition: all .3s ease-in-out;
+    background:none;
+    z-index: 10;
+  }
+  .magic ul{
+    padding: 0;
+    margin: 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+  }
+  .magic li{
+    list-style:none;
+    font-size: 20px
+  }
+  .pre_magic {
+    width:100%;
+  }
+  .pre_magic ul{
+    margin: 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding:0;
+  }
+  .pre_magic li{
+    list-style:none;
+    font-size: 20px;
+    z-index: 4;
+  }
+  .logo_div{
+    display: flex;
+  }
+  .logo{
+    width: 10vw;
+  }
+  #Question_Arcs, #Answer_Arcs, #Bonus_Material, #Manga, #Anime, #Light_Novel{
+    padding-left: 50px;
+    font-size: 150%;
+  }
+  .content_in_flex ul{
+    color:rgb(225, 225, 225);
+    font-size: 150%;
+    padding-left: 50px;
+    padding-right: 50px;
+    list-style: none;
+  }
+ .pre_magic .dropdown .dropbtn {
+    background: transparent;
+    color:white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.magic .dropdown .dropbtn {
+  background: transparent;
+  color:rgb(255, 153, 0);
+  padding: 2px 6px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+ .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+ .dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(255, 153, 0);
+    color:black;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+}
+.icons ul{
+  position: relative;
+  display: flex;
+}
+.icons ul li{
+  position: relative;
+  list-style: none;
+}
+.icons ul li a{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 50%;
+  color: white;
+  background: black;
+  transition: .5s;
+  overflow: hidden;
+}
+.icons ul li a:hover{
+	background-color: transparent;
+	cursor: pointer;
+}
+.icons ul li a::before{
+	content: '';
+	display: block;
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	bottom: 100%;
+  border-radius: 50%;
+	z-index: -1;
+}
+.icons ul li a:hover::before{
+  animation: anime 0.35s linear forwards;
+}
+.icons ul li a::before{
+  background: linear-gradient(red,gold);
+}
+@keyframes anime{
+	100%{
+		bottom: 0;
+	}
+}
