@@ -447,3 +447,21 @@ a:active, a:hover{
   margin: 0;
   border-radius: 50%;
 }
+@media screen and (min-width: 1000px) {
+  .rightimg:hover{
+    position: absolute;
+    width: 50vw;
+    left: 25vw;
+    cursor: pointer;
+  }
+  .rightimgportrait:hover{
+    position: absolute;
+    height: 60vh;
+    left: 35vw;
+    cursor: pointer;
+  }
+  .Pict img:hover{
+    width: 70vw;
+    cursor: pointer;
+  }
+}
