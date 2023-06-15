@@ -460,8 +460,5 @@ a:active, a:hover{
     left: 35vw;
     cursor: pointer;
   }
-  .Pict img:hover{
-    width: 70vw;
-    cursor: pointer;
-  }
+
 }
